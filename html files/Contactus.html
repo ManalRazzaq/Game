@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT-TANGOLINE</title>
+    <link rel="icon" href="../Images/remote profile.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+
+</head>
+<body>
+      <!--NAVBAR START-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top" data-aos="fade-up">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../Images/logo-img.png" alt="" width="180px" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About-us.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Brands.html">Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Consoles.html">Console</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="active" href="Contactus.html">Contact</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+          <!-- navbar ended -->
+
+    <!-- Hero-slider start -->
+    <div class="hero-slide" style="background: url('../Images/contact-img.jpg') fixed; background-size: cover;" data-aos="fade-in">
+        <h3 data-aos="fade-up"> CONTACT TANGOLINE</h3>
+         </div>
+   
+       <!-- Hero-slider end -->
+<!--FORM-->
+<br><br>
+<center data-aos="fade-up"  style=" color: #fff !important;" >
+    <i class="fa fa-clock" id="clock" aria-hidden="true" style=" color: #fff !important;"></i>
+    <script>
+    
+    var d=new Date().getHours()
+    var m=new Date().getMinutes()
+    var s=new Date().getSeconds()
+    document.write(d+":"+m+":"+s)
+    </script>
+    <br>
+    <i class="fa fa-calendar" id="clock" aria-hidden="true" style=" color: #fff !important;"></i>
+    <script>
+    var d=new Date().getDate()
+    var m=new Date().getMonth()+1
+    var s=new Date().getFullYear()
+    document.write(d+"-"+m+"-"+s)
+    </script>
+    </center>
+    <br><br>
+    <!-- CONTACT FORM -->
+    
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="section-title" data-aos="fade-up">Contact Us</h3>
+        <br>
+        <p class="section-description" data-aos="fade-up">"Please feel free to reach out to us using the form below, and we'll get back to you as soon as possible."</p>
+      </div>
+      <div class="col-md-6">
+        <form id="contactForm"data-aos="fade-up">
+          <div class="form-group">
+         <h3 class="contact-head">Email</h3>   
+         <input type="email" placeholder="Email" class="form-control form-fix" id="name" required>
+          </div>
+          <div class="form-group">
+            <h3 class="contact-head">Subject</h3>
+           <input type="text" placeholder="Subject"  class="form-control form-fix" id="email" required>
+          </div>
+          <div class="form-group">
+            <h3 class="contact-head">Message</h3>
+            <textarea  placeholder="Your Mesage.." class="form-control form-fix" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-contact">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <div id="map" data-aos="fade-up">
+          <img class="map-container" src="../Images/map picture.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+<!--INFORMATION-->
+<section class="info" data-aos="fade-in">
+
+<div class="contact-detail" data-aos="fade-up">
+<i class="fa-solid fa-phone"></i>
+  <p style="color: #fff !important;">+9231377567</p>
+</div>
+<div class="contact-detail" data-aos="fade-up">
+  <i class="fa-solid fa-location-dot"></i>
+  <p style="color: #fff !important;">Aptect North Nazimabad,Karachi</p>
+</div>
+<div class="contact-detail" data-aos="fade-up">
+  <i class="fa-solid fa-envelope"></i>
+ <p style="color: #fff !important;">CONTACT-TANGOLINE@tangoline.com</p>
+</div>
+</section> 
+          <!--FOOTER AREA-->
+          <footer style="color: #fff !important;">
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.959);color: #fff !important;">
+              Copyright © 2024:
+              <a style="color: #fff !important;" href="../index.html">  TANGOLINE 🎮</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+
+
+
+
+   <!-- Optional JavaScript; (Scrolling)! -->       
+  <script>
+    const navEl = document.querySelector('.navbar');
+  
+    window.addEventListener('scroll', () => {
+    if(window.scrollY >= 90) {
+     navEl.classList.add('navbar-scrolled');
+  } else if (window.scrollY < 56){
+    navEl.classList.remove('navbar-scrolled');
+  }
+  });
+  </script>
+
+
+   <!-- JavaScript for contact page ! -->  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+
+
+// Submit Form
+$('#contactForm').submit(function(e) {
+  e.preventDefault();
+  // Handle form submission here, e.g., send data to server
+  alert('Form submitted!');
+});
+
+  </script>      
+<!-- Animation Javascript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</body>
+<script>
+  AOS.init();
+</script>
+</html>
